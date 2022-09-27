@@ -1,102 +1,32 @@
-body {
-  font: 16px/28px arial, sans-serif;
-  background-color: rgb(255, 252, 252);
-  color: brown;
-}
-
-.container {
-  width: 800px;
-  margin: auto;
-  background-color: wheat;
-}
-
-.header {
+form {
+  border: solid 2px #ccc;
   padding: 20px;
-  padding-bottom: 5px;
+  width: 500px;
+  background-color: palevioletred;
+  border-radius: 20px;
 }
 
-.header .judul {
-  font-size: 35px;
-  font-weight: bold;
+.item {
+  margin-bottom: 20px;
+  font-size: large;
 }
 
-.header ul li {
-  display: inline-block;
-  margin-top: 20px;
-  margin-right: 10px;
+input {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin-top: 5px;
 }
 
-.header a {
-  text-decoration: none;
-  color: black;
-  padding: 4px;
+.form {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  height: 100vh;
 }
 
-.header a:hover {
-  background-color: lightslategray;
+button {
+  width: 100%;
+  background-color: blue;
   color: white;
-}
-
-.aulia {
-  height: 300px;
-  background-image: url(img/aulia.jpg.jpg);
-  background-size: cover;
-  background-position: 0 -150px;
-  border-bottom: 5px solid palevioletred;
-  border-top: 5px solid saddlebrown;
-}
-
-.content {
-  padding: 20px;
-}
-
-.content h2 {
-  font-size: 25px;
-  font-weight: bold;
-}
-
-.content .penulis {
-  font-size: 11px;
-  margin-top: -5px;
-}
-
-.content .penulis a {
-  color: black;
-  text-decoration: none;
-}
-
-.content p {
-  font-size: 15px;
-}
-
-.footer {
-  background-color: rgb(214, 198, 168);
-  padding: 5x;
-  margin-top: 80px;
-  padding: 20px;
-  font-size: larger;
-  color: black;
-}
-
-.footer .copy {
-  color: black;
-  text-align: center;
-  font-size: 12px;
-}
-
-.iklan {
-  background-color: rgb(214, 198, 168);
-  color: brown;
-  margin-left: 1067px;
-  margin-top: -1239px;
-  padding: 10px;
-  font-size: smaller;
-}
-
-.iklan2 {
-  background-color: rgb(214, 198, 168);
-  margin-right: 1065px;
-  margin-top: -1191px;
-  padding: 10px;
-  font-size: smaller;
 }
